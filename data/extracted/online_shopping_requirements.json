@@ -1,0 +1,44 @@
+[
+    {
+        "requirement_id": "R001",
+        "section_number": "3.1.1",
+        "title": "Registration",
+        "source": "online shopping system.pdf",
+        "requirement": "If customer wants to buy the product then he/she must be registered, unregistered user can’t go to the shopping cart."
+    },
+    {
+        "requirement_id": "R002",
+        "section_number": "3.1.2",
+        "title": "Login",
+        "source": "online shopping system.pdf",
+        "requirement": "Customer logins to the system by entering valid user id and password for the shopping."
+    },
+    {
+        "requirement_id": "R003",
+        "section_number": "3.1.3",
+        "title": "Changes to Cart",
+        "source": "online shopping system.pdf",
+        "requirement": "Changes to cart means the customer after login or registration can make order or cancel order of the product from the shopping cart."
+    },
+    {
+        "requirement_id": "R004",
+        "section_number": "3.1.4",
+        "title": "Payment",
+        "source": "online shopping system.pdf",
+        "requirement": "In this system we are dealing the mode of payment by Cash.We will extend this to credit card,debit card etc in the future."
+    },
+    {
+        "requirement_id": "R005",
+        "section_number": "3.1.5",
+        "title": "Logout",
+        "source": "online shopping system.pdf",
+        "requirement": "After ordering or surfing for the product customer has to logout."
+    },
+    {
+        "requirement_id": "R006",
+        "section_number": "3.1.6",
+        "title": "Report Generation",
+        "source": "online shopping system.pdf",
+        "requirement": "After ordering for the product,the system will sent one copy of the bill to the customer’s Email-address and another one for the system data base."
+    }
+]

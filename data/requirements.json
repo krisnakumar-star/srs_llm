@@ -1,0 +1,89 @@
+[
+  {
+    "id": "R001",
+    "requirement": "The system shall allow registered users to reset their password using their registered email address.",
+    "context": "The application provides account management for registered users.",
+    "analysis": {
+      "correctness": {
+        "label": "PASS",
+        "reason": "The requirement matches the described account-management functionality."
+      },
+      "completeness": {
+        "label": "PASS",
+        "reason": "The requirement specifies the user, action, and method."
+      },
+      "clarity": {
+        "label": "PASS",
+        "reason": "The requirement clearly describes the expected behavior."
+      },
+      "unambiguity": {
+        "label": "PASS",
+        "reason": "The requirement has a specific interpretation."
+      },
+      "verifiability": {
+        "label": "PASS",
+        "reason": "The password-reset behavior can be tested."
+      },
+      "feasibility": {
+        "label": "PASS",
+        "reason": "Password reset through registered email is technically feasible."
+      },
+      "consistency": {
+        "label": "NEEDS_CONTEXT",
+        "reason": "Consistency requires comparison with other requirements."
+      },
+      "traceability": {
+        "label": "NEEDS_CONTEXT",
+        "reason": "Traceability requires source and related artifact information."
+      }
+    },
+    "overall_score": 0.875,
+    "recommendations": [],
+    "improved_requirement": "The system shall allow registered users to reset their password using their registered email address."
+  },
+
+  {
+    "id": "R002",
+    "requirement": "The system shall process requests quickly.",
+    "context": "The system processes user requests through a web application.",
+    "analysis": {
+      "correctness": {
+        "label": "NEEDS_CONTEXT",
+        "reason": "The intended processing behavior cannot be confirmed from the available context."
+      },
+      "completeness": {
+        "label": "INCOMPLETE",
+        "reason": "The requirement does not specify the expected processing time."
+      },
+      "clarity": {
+        "label": "FAIL",
+        "reason": "The term 'quickly' is subjective."
+      },
+      "unambiguity": {
+        "label": "FAIL",
+        "reason": "Different users may interpret 'quickly' differently."
+      },
+      "verifiability": {
+        "label": "FAIL",
+        "reason": "There is no measurable performance criterion."
+      },
+      "feasibility": {
+        "label": "NEEDS_CONTEXT",
+        "reason": "Feasibility cannot be evaluated without a defined performance target."
+      },
+      "consistency": {
+        "label": "NEEDS_CONTEXT",
+        "reason": "Consistency requires comparison with other requirements."
+      },
+      "traceability": {
+        "label": "NEEDS_CONTEXT",
+        "reason": "Traceability requires source and related artifact information."
+      }
+    },
+    "overall_score": 0.25,
+    "recommendations": [
+      "Replace 'quickly' with a measurable response-time requirement."
+    ],
+    "improved_requirement": "The system shall process each request within 2 seconds under normal operating conditions."
+  }
+]
